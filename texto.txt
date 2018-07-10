@@ -1,0 +1,227 @@
+<! doctype html>
+< html  lang = " en " >
+  < cabeça >
+    <! - Metatags obrigatórios ->
+    < meta  charset = " utf-8 " >
+    < meta  name = " viewport "  content = " largura = largura do dispositivo, escala inicial = 1, encolher para ajustar = não " >
+
+    <! - Bootstrap CSS ->
+    < link  rel = " stylesheet "  href = " https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css "  integridade = " sha384-WskhaSGFgHYWDcbwN70 / dfYBj47jz9qbsMId / iRN3ewGhXQFZCSftd1LZCfmhktB "  crossorigin = " anônimo " >
+
+
+    < title > gerador de currículo </ title >
+  </ head >
+  < body >
+             
+
+  <! - menu ->
+
+
+             < nav  class = " navbar navbar-expand-lg navbar-luz bg-luz navbar
+              navbar-dark bg-dark " > <! - cordomenu ->
+
+  < A  class = " navbar-brand "  href = " # " > </ a >
+
+  < button  class = " navbar-toggler "  type = " botão "  data-toggle = " colapsar "  dados-alvo = " #navbarSupportedContent "  aria-controls = " navbarSupportedContent "  aria-expandido = " false "  aria-label = " Alternar navegação " >
+    < span  class = " navbar-toggler-icon " > </ span >
+  </ button >
+
+  < div  class = " colapso navbar-collapse "  id = " navbarSupportedContent " >
+    < ul  classe = " navbar-nav mr-auto " >
+      < li  class = " nav-item active " >
+        < A  class = " nav-link "  href = " # " > Exemplos de Currículos < extensão  class = " sr-only " > (atual) </ palmo > </ a >
+      </ li >
+      < li  class = " nav-item " >
+        < A  class = " nav-link "  href = " # " > Como devo Fazer meu curriculo </ a >
+      </ li >
+      < li  class = " lista suspensa do item do navegador " >
+        < A  class = " nav-link suspensa-toggle "  href = " # "  id = " navbarDropdown "  papel = " botão "  de dados-toggle = " suspensa "  aria-haspopup = " verdadeiro "  expandiu-ária = " false " >
+          mais opçoes
+        </ a >
+        < div  class = " menu suspenso "  aria-labelledby = " navbarDropdown " >
+          < A  class = " suspensa item "  href = " # " > PROCURAR vagas de EMPREGOS </ a >
+          < A  class = " suspensa item "  href = " # " > Acessar Uma Conta ja EXISTENTE </ a >
+          < div  class = " dropdown-divider " > </ div >
+          < A  class = " suspensa item "  href = " # " > Recuperar hum currico ja EXISTENTE </ a >
+        </ div >
+      </ li >
+      < li  class = " nav-item " >
+        < A  class = " nav-link desativada "  href = " # " > Acessar meu curriculo </ a >
+      </ li >
+    </ ul >
+    
+    </ form >
+  </ div >
+</ nav >
+
+
+<! - formulario ->
+< form >
+  < div  class = " form-row " >
+    < div  class = " col-md-4 mb-3 " >
+      < label  for = " validationDefault01 " > primeiro nome </ label >
+      < input  type = " text "  class = " forma-controle "  id = " validationDefault01 "  espaço reservado = " primeiro nome "  valor = " "  obrigatório >
+    </ div >
+    < div  class = " col-md-4 mb-3 " >
+      < label  for = " validationDefault02 " > segundo nome </ label >
+      < input  type = " text "  class = " forma-controle "  id = " validationDefault02 "  espaço reservado = " segundo nome "  valor = " "  obrigatório >
+    </ div >
+    < div  class = " col-md-4 mb-3 " >
+      < label  for = " validationDefaultUsername " > escolha um nome de usuario </ label >
+      < div  class = " input-group " >
+        < div  class = " entrada-grupo-prepend " >
+          < span  class = " input-grupo-texto "  id = " inputGroupPrepend2 " > @ </ span >
+        </ div >
+        < input  type = " text "  class = " forma-controle "  id = " validationDefaultUsername "  placeholder = " Usuário "  aria-describedby = " inputGroupPrepend2 "  necessário >
+      </ div >
+    </ div >
+  </ div >
+  < div  class = " form-row " >
+    < div  class = " col-md-6 mb-3 " >
+      < label  for = " validationDefault03 " > qual sua cidade </ label >
+      < input  type = " text "  class = " forma-controle "  id = " validationDefault03 "  espaço reservado = " qual sua cidade "  obrigatório >
+    </ div >
+    < div  class = " col-md-3 mb-3 " >
+      < label  for = " validationDefault04 " > qual seu estado </ label >
+      < input  type = " text "  class = " forma-controle "  id = " validationDefault04 "  espaço reservado = " qual seu estado "  necessário >
+    </ div >
+    < div  class = " col-md-3 mb-3 " >
+      < label  for = " validationDefault05 " > digite seu estado civil </ label >
+      < input  type = " text "  class = " forma-controle "  id = " validationDefault05 "  espaço reservado = " qual seu estado civil "  necessário >
+    </ div >
+  </ div >
+  
+ 
+</ form >
+
+
+
+
+
+
+< form >
+	< div  class = " form-check " >
+  < input  class = " entrada de verificação de formulário "  type = " checkbox "  value = " "  id = " defaultCheck1 " >
+  < label  class = " form-check-label "  para = " defaultCheck1 " >
+    Ja trabalhei antes
+  </ label >
+</ div >
+< div  class = " form-check " >
+  < input  class = " entrada de verificação de formulário "  type = " checkbox "  value = " "  id = " defaultCheck1 " >
+  < label  class = " form-check-label "  para = " defaultCheck1 " >
+    Nunca trabalhei antes
+  </ label >
+</ div >
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > em qual empresa </ label >
+    < input  type = " email "  class = " forma-controle "  id = " exampleFormControlInput1 "  espaço reservado = " digite o nome da empresa " >
+  </ div >
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > escreva sua experiência profissional </ label >
+    < input  type = " email "  class = " controle de formulário "  id = " exampleFormControlInput1 "  espaço reservado = " escreva sua experiência profissional aqui " >
+  </ div >
+
+
+  
+
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > posui a sua categoria </ label >
+    < input  type = " email "  class = " forma-controle "  id = " exampleFormControlInput1 "  espaço reservado = " cnh A, B, C, D, E " >
+  </ div >
+
+
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > formação acadêmica </ label >
+    < input  type = " email "  class = " controle de formulário "  id = " exampleFormControlInput1 "  espaço reservado = " formação acadêmica " >
+  </ div >
+
+
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > qual o seu perfil profissional </ label >
+    < input  type = " email "  class = " controle de formulário "  id = " exampleFormControlInput1 "  placeholder = " digite seu objetivo profissional " >
+  </ div >
+
+< div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > fala do idioma </ label >
+    < input  type = " email "  class = " controle de formulário "  id = " exampleFormControlInput1 "  espaço reservado = " ingles " >
+  </ div >
+
+
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlInput1 " > referencias </ label >
+    < input  type = " email "  class = " controle-de-formulário "  id = " exampleFormControlInput1 "  espaço reservado = " digite suas informações como nome telefone e email de pessoas que possam falar de você " >
+  </ div >
+
+
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlSelect1 " > selecione o cargo desejado </ label >
+    < select  class = " controle de formulário "  id = " exampleFormControlSelect1 " >
+      < opção > 1 </ option >
+      < opção > 2 </ option >
+      < opção > 3 </ option >
+      < opção > 4 </ option >
+      < opção > 5 </ option >
+    </ select >
+  </ div >
+  
+  < div  class = " form-group " >
+    < label  for = " exampleFormControlTextarea1 " > Escreva para os seus cursos etracurriculares </ label >
+    < textarea  class = " formulário-controle "  id = " exampleFormControlTextarea1 "  rows = " 3 " > </ textarea >
+  </ div >
+</ form >
+
+
+
+
+
+
+
+< form >
+  < div  class = " form-group " >
+    < label  for = " exampleInputEmail1 " > qual seu email </ label >
+    < input  type = " email "  class = " controle de formulário "  id = " exampleInputEmail1 "  aria-describedby = " emailHelp "  espaço reservado = " Enter email " >
+    < small  id = " emailHelp "  class = " texto do formulário text-muted " > </ small >
+  </ div >
+  < div  class = " form-group " >
+    < label  for = " exampleInputPassword1 " > escolha uma senha para acesas seu curriculo </ label >
+    < input  type = " password "  class = " forma-controle "  id = " exampleInputPassword1 "  espaço reservado = " Senha " >
+  </ div >
+
+  < div  class = " form-check " >
+  < input  class = " entrada de verificação de formulário "  type = " radio "  name = " exampleRadios "  id = " exampleRadios1 "  value = " option1 "  verificado >
+  < label  class = " form-check-label "  para = " exampleRadios1 " >
+    imprimir em pdf
+  </ label >
+</ div >
+< div  class = " form-check " >
+  < input  class = " entrada de verificação de formulário "  type = " radio "  name = " exampleRadios "  id = " exampleRadios2 "  value = " option2 " >
+  < label  class = " form-check-label "  para = " exampleRadios2 " >
+    desejo imprimir em docx
+  </ label >
+</ div >
+
+
+  < div  class = " formulário de grupo de verificação " >
+    < input  type = " checkbox "  class = " formulário-check-input "  id = " exampleCheck1 " >
+   
+    < label  class = " form-check-label "  para = " invalidCheck2 " >
+       voce aceita os termos e condiçoes?
+      </ label >
+  </ div >
+  < button  type = " submit "  class = " btn btn-primary " > imprimir currículo </ button >
+
+</ form >
+
+
+
+
+
+
+
+    <! - JavaScript opcional ->
+    <! - jQuery primeiro, depois Popper.js, depois Bootstrap JS ->
+    < script  src = " https://code.jquery.com/jquery-3.3.1.slim.min.js "  integridade = " sha384-q8i / X + 965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH + 8abtTE1Pi6jizo "  crossorigin = " anônimo " > < / script >
+    < script  src = " https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js "  integridade = " sha384-ZMP7rVo3mIykV + 2 + 9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK / l8WvCWPIPm49 "  crossorigin = " anônimo " > < / script >
+    < script  src = " https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js "  integridade = " sha384-smHYKdLADwkXOn1EmN1qk / HfnUcbVRZyYmZ4qpPea6sjB / pTJ0euyQp0Mk8ck + 5T "  crossorigin = " anônimo " > < / script >
+  </ body >
+</ html >
